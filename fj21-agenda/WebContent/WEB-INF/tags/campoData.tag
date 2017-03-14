@@ -3,8 +3,5 @@
 <input type="text" id="${id}" name="${id}" />
 
 <script>
-	$("#${id}").datepicker({dateFormat: 'dd/MM/yyyy'
-							, changeMonth:true
-							, changeYear:true
-	});
+	$("#${id}").datepicker({dateFormat: 'dd/mm/yy'});
 </script>
